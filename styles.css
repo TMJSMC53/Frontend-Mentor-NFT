@@ -46,7 +46,7 @@ body {
   color: var(--clr-primary-1);
   line-height: 1.5;
   font-size: 1.125rem;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 3.875rem 1.5rem;
   margin: 0 auto;
   width: 100%;
@@ -190,7 +190,6 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 2.5rem;
 }
 
 .attribution a {
@@ -200,13 +199,25 @@ img {
 @media screen and (min-width: 90rem) {
   body {
     width: 1440px;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 350px;
   }
 
   .card {
+    margin: 9.5rem 0;
     padding: 1.5rem 1.5rem 2rem 1.5rem;
   }
 
-  .card__box {
+  .img-container {
+    width: 100%;
+    max-width: 302px;
+  }
+
+  .card__body {
     max-width: 302px;
   }
 
