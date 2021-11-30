@@ -207,6 +207,10 @@ img {
     padding: 1.5rem 1.5rem 2rem 1.5rem;
   }
 
+  .card__box {
+    width: 302px;
+  }
+
   .card__title {
     margin-bottom: 1rem;
   }
