@@ -165,6 +165,10 @@ img {
   gap: 6.48px;
 }
 
+.days {
+  font-size: var(--fs-700);
+}
+
 .img-avatar {
   width: 33px;
   height: 33px;
@@ -232,6 +236,8 @@ img {
 
   .card__content {
     margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 20px;
   }
 
   .creator {
