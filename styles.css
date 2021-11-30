@@ -199,7 +199,7 @@ img {
 
 @media screen and (min-width: 90rem) {
   body {
-    max-width: 1440px;
+    width: 1440px;
   }
 
   .card {
@@ -207,7 +207,7 @@ img {
   }
 
   .card__box {
-    width: 302px;
+    max-width: 302px;
   }
 
   .card__title {
